@@ -9,13 +9,23 @@ package ejercicios;
  *
  * @author reroes
  */
+import org.apache.commons.lang3.math.NumberUtils;
+
 public class Problema04 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // 
+        String[] dataInicial = {"100", "90", "1n", "10", "H1", "H2"};
+        int[] dataFinal = new int[6];
+        String numero;
+        for (int i = 0; i < dataInicial.length; i++) {
+            numero = dataInicial[i];
+            System.out.println(dataFinal[i] = NumberUtils.toInt(numero));
+
+        }
     }
-    
+
 }

@@ -1,5 +1,5 @@
 # Taller12
-
+# Sofia Vire Y Richard Ortiz
 ## Problemáticas
 
 #### Fin respuesta
